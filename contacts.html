@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Muse HUb | контакты</title>
+		<link rel="stylesheet" href="style/style.css" />
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+		<meta http-equiv="X-UA-Compatible" content="IE=7" />
+		<meta name="keywords" content="" />
+		<link rel="apple-touch-icon" href="asset/favicon/favicon/apple.png" />
+		<link rel="manifest" href="./site.webmanifest" />
+		</head>
+	<body>
+		<div class="main">
+			<div class="small">
+				<div class="content">
+					<header>
+						<nav>
+							<div class="header">
+								<div class="logo">
+									<img src="./asset/img/logo-rm-bg.png" alt="muse hub лого" />
+								</div>
+							 <p class="title"> MUSE HUB: +7 999 211 26 86 <br>+7 981 270 30 30 <br> Осипенко 10к.1 </p> 
+								<div class="desctop-menu">
+									<ul>
+										<li><a href="index.html">главная</a></li>
+										<li><a href="about.html">о нас</a></li>
+										<li><a href="lessons.html">уроки</a></li>
+										<li><a href="rent.html">аренда</a></li>
+										<li>
+											<a class="disabled" href="contacts.html">контакты</a>
+										</li>
+									</ul>
+								</div>
+								<div onclick="openMenu(this)" class="toggle">☰</div>
+							</div>
+						</nav>
+					</header>
+
+					<div class="menu-container">
+						<ul class="menu">
+							<li><a href="index.html">главная</a></li>
+							<li><a href="about.html">о нас</a></li>
+							<li><a href="lessons.html">уроки</a></li>
+							<li><a href="rent.html">аренда</a></li>
+							<li><a class="disabled" href="contacts.html">контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<main>
+			<div class="adress">
+				<div class="map">
+					<iframe
+						src="https://yandex.ru/map-widget/v1/?um=constructor%3Aea6585ec1ef89d845bbb2a706df0e5fa4e5ef51cb55fc3cb2ab795c2f354b6e7&amp;source=constructor"
+						width="50%"
+					></iframe>
+				</div>
+				<div class="map-legend">
+					<ul>
+						<li><span class="accent"> Email: </span>schoolmusichub@gmail.com </li>
+						<li><span class="accent"> Телефон: </span> <div class='tel'> 8&#160;981&#160;270&#160;30&#160;30 
+							<br> 8&#160;911&#160;829&#160;14&#160;79 </div> </li>
+						<li><span class="accent"> Адрес: </span> СПБ Оcипенко&#160;10&#160;к&#160;1</li>
+					</ul>
+				</div>
+			</div>
+		</main>
+	<footer>
+  <section class="contacts">
+    <h2>Запишитесь на Занятие Прямо Сейчас</h2>
+   <div class="contacts-container">
+    <div class="rate-description"> 
+      <h2>цены</h2>
+      <P>1400&#160;₽ - разовое занятие </P>
+      <br>
+        <p class="accent">абонементы</p>
+        <ul>
+          <li>5 занятий - 6500&#160;₽ (Выгода   <span class="accent"> 500&#160;₽ </span> ) 
+               </li>
+               <li>групповое занятие обсуждается индивидуально
+               <br> +7 999 211 26 86 <br>
++7 981 270 30 30
+               </li>
+        </ul>
+               </div>
+    <div class="rate-contact-form">
+      <form id="formID"  action = 'contact.php' class="contact-form" method="post" >
+        <label for="name">Ваше имя</label>
+        <input placeholder="почта" type="text" name="name" id="name">
+        <label for="email">Ваша почта</label>
+        <input placeholder="email" type="email" name="email" id="email">
+        <label   for="course-select">Выберети направление</label>
+        <select name="course-select" id="course-select">
+          <option>Выберите направление</option>
+          <option>Фортепиано</option>
+          <option>Гитара</option>
+          <option>Вокал</option>
+          <option>Барабаны</option>
+        </select>
+        <label for="message">Ваше сообщение</label>
+        <input     placeholder="комментарий" name="message" type="text" id="message">
+        <label for="checkbox_policy">с  <a href="./policy.html ">политикой конфиденцильности</a> ознакомлен и согласен. </label>
+<p> <input type="checkbox" name="policy" required  id="checkbox_policy"> </p>
+               <input type="submit" value="отправить">
+      </form>
+    </div>
+   </div>  
+    <div class="footer">
+      <a href="http://yarochkin.ru/author.html"> &copy; YAROCHKIN</a>
+    </div>    
+  </section>
+</footer>
+		<script src="./js/scripts/menu.js"></script>
+	</body>
+</html>

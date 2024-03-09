@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Записаться на уроки</title>
+		<link rel="stylesheet" href="style/style.css">
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<meta http-equiv="X-UA-Compatible" content="IE=7">
+        <meta name="description" content="Записаться на уроки в музыкальной школе Muse HUb. Уроки вокала, гитары, фортепиано и других инструментов. Опытные преподаватели, индивидуальный подход, современные методики обучения. Присоединяйтесь к нам и откройте для себя мир музыки!">
+		<meta name="keywords" content="уроки, музыкальная школа, Muse HUb, запись на уроки, вокал, гитара, фортепиано, преподаватели, инструменты, обучение, методики, музыкальные уроки, записаться, музыкальное образование">
+		<link rel="apple-touch-icon" href="asset/favicon/favicon/apple.png">
+		<link rel="manifest" href="./site.webmanifest">
+	</head>
+	<body>
+		
+		<section class="main">
+			<div class="small">
+				<div class="content">
+					<header>
+						<nav>
+							<div class="header">
+								<div class="logo"><img src="./asset/img/logo-rm-bg.png" alt="muse hub лого"> </div>
+								<p class="title"> MUSE HUB:+7 999 211 26 86 <br>+7 981 270 30 30 <br> Осипенко 10к.1 </p>
+								<div class="desctop-menu">
+									<ul >
+										<li><a href="index.html">главная</a></li>
+										<li><a  href="about.html">о нас</a></li>
+										<li><a  class="disabled" href="lessons.html">уроки</a></li>
+										<li><a  href="rent.html">аренда</a></li>
+										<li><a  href="contacts.html">контакты</a></li>
+									</ul>
+								</div>
+								<div onclick="openMenu(this)" class="toggle">☰</div>
+							</div>
+						</nav>
+					</header>
+					<div class="menu-container">
+						<ul class="menu">
+							<li><a  href="index.html">главная</a></li>
+							<!--<li><a  href="about.html">о нас</a></li>-->
+							<li><a class="disabled" href="lessons.html">уроки</a></li>
+							<li><a  href="rent.html">аренда</a></li>
+							<li><a  href="contacts.html">контакты</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<main>
+			<h3>  Всем привет!</h3>
+			<div class="intro">
+				<p>Добро пожаловать в нашу музыкальную школу! Мы предлагаем широкий спектр музыкальных программ, которые помогут вам развить свои музыкальные способности и таланты. Наши опытные преподаватели помогут вам освоить вокал, гитару и фортепиано, учитывая ваши индивидуальные потребности и предпочтения. Мы используем самые современные методики обучения, которые позволяют быстро и эффективно освоить любой музыкальный инструмент. Приходите к нам и откройте для себя мир музыки!</p>
+				<p>  В моей школе ты можешь выбрать  любого преподователя</p>
+			</div>
+			<!--<div class="" id="filter-buttons">-->
+			<!--  <button type="button" data-filter="all" class="active">Все</button>-->
+			<!--  <button  type="button" type="button" data-filter="vocal">Вокал</button>-->
+			<!--  <button type="button"  data-filter="drum">Барабаны</button>-->
+			<!--  <button  type="button" data-filter="guitar">Гитара</button>-->
+			<!--  <button  type="button" data-filter="fortepiano">Фортепьяно</button>-->
+			<!--</div>-->
+			<section  id="filterable-cards" class="profiles">
+            
+				<div data-name="vocal" class="profile-card">
+					<div class="profile-card-img">
+						<img src="./asset/tutors/DashaVocal.png" alt="фото учителя Дарьи вокал">
+					</div>
+					<div id="fortepiano" class="fio">
+						Привет! Меня зовут Даша, я буду рада научить тебя красиво петь)
+					</div>
+					<div class="cv">
+						У меня среднее специальное и высшее образование:
+						- Тверской музыкальный колледж им. Мусоргского, «Вокальное искусство»;
+						- Московский государственный институт культуры и искусств, «Академическое пение».
+						Ранее работала в студии «Алые Паруса», проводила индивидуальные и групповые занятия по вокалу.
+						Также несколько лет работала в хоре «Русский партес» и в женском вокальном ансамбле, вела концертную деятельность и параллельно занималась репетиторством. 
+						К каждому стараюсь находить свой подход. Есть те, кто не любит торопить события и смакует каждую ноту, есть те, кто в первую очередь нацелен на результат и нуждается в хорошем стимуле и чётких контрольных точках — я всегда помогу ученику и буду держать его темп)
+						Жду вас на своих занятиях!
+						Буду рада знакомству и возможности поработать с вами)
+					</div>
+					<div class="link">
+						<a href="#contacts" class="prim">Записаться</a>
+					</div>
+				</div>
+				<div  data-name="guitar" class="profile-card">
+					<div id="guitar" class="profile-card-img">
+						<img src="./asset/tutors/maxGuitar.png" alt="фото учителя Дарьи вокал">
+					</div>
+					<div class="fio">
+						Привет! Меня зовут Максим
+					</div>
+					<div class="cv">, я буду рад стать твоим проводником в мир музыки и учителем гитары) 
+						Учусь в музыкально-педагогическом училище.
+						Опыт работы 3 года
+						Работаю как с детьми, так и со взрослыми 
+						Научу вас играть ту музыку, которая вам по душе: 0Начиная от классики, заканчивая металлом)
+						Гитара: классическая, акустическая, электро.
+						Записывайтесь на пробный урок, все расскажу, покажу и, конечно, научу)
+					</div>
+					<div class="link">
+						<a href="#contacts" class="prim">Записаться</a>
+					</div>
+				</div>
+				<div class="profile-card">
+					<div   data-name="fortepiano" class="profile-card-img">
+						<img src="./asset/tutors/DashaPhano.png" alt="фото учителя Дарьи фортепьяно">
+					</div>
+					<div class="fio">
+						Приветствую!
+						Меня зовут Дарья,      
+					</div>
+					<div class="cv"> я являюсь педагогом по вокалу и фортепиано. Занимаюсь музыкой с 7 лет. С отличием окончила Омское Музыкальное училище имени В.Я. Шебалина по специальности «Академический вокал». Лауреат всероссийских и международных конкурсов. В настоящее время учусь в РГПУ имени Герцена.
+						Буду рада помочь вам сделать ваши первые шаги и сыграть ваши любимые произведения)
+						Приходите, с нетерпением жду!
+					</div>
+					<div class="link">
+						<a href="#contacts" class="prim">Записаться</a>
+					</div>
+				</div>
+				<div  data-name="fortepiano" class="profile-card">
+					<div class="profile-card-img">
+						<img src="./asset/tutors/YanaPhano.png" alt="фото учителя фортепьяно  Яны">
+					</div>
+					<div class="fio">
+						Добрый день! Меня зовут Яна ☺️
+					</div>
+					<div class="cv"> 
+						Я - пианистка и педагог, лауреат международных конкурсов. Занимаюсь музыкой уже 16 лет.
+						Учусь на 4 курсе института музыки, театра и хореографии им. А. И. Герцена.
+						Провожу занятия как для начинающих с нуля, так и для тех, кто уже имеет навыки игры на фортепиано! 
+						Буду счастлива познакомить вас с чудесным миром музыки.
+					</div>
+					<div class="link">
+						<a href="#contacts" class="prim">Записаться</a>
+					</div>
+				</div>
+				<div  data-name="guitar" class="profile-card">
+					<div class="profile-card-img">
+						<img src="./asset/tutors/sevaGuitar.png" alt="фото учителя фортепиано">
+					</div>
+					<div class="fio">
+						Добрый день! Меня зовут Cева ☺️
+					</div>
+					<div class="cv"> 
+						Я - профессиональный преподаватель гитары с более чем десятилетним опытом. Уверен, что могу помочь вам раскрыть ваш музыкальный потенциал. Мы вместе освоим аккорды, мелодии и технику игры. Независимо от вашего уровня, буду внимательно прислушиваться к вашим целям и помогу вам достичь желаемого результата. Погружусь в ваши музыкальные предпочтения и помогу научиться играть ваши любимые песни. Давайте вместе создадим музыку! Жду вас на увлекательных уроках гитары!
+					</div>
+					<div class="link">
+						<a href="#contacts" class="prim">Записаться</a>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<section class="contacts">
+				<h2  id='contacts'  >Запишитесь на Занятие Прямо Сейчас</h2>
+				<div class="contacts-container">
+					<div class="rate-description">
+						<h2>цены</h2>
+						<P>1400&#160;₽ - разовое занятие </P>
+						<br>
+						<p class="accent">абонементы</p>
+						<ul>
+						<li>5 занятий - 6500&#160;₽ (Выгода   <span class="accent"> 500&#160;₽ </span> ) 
+						</li>
+						<li>групповое занятие обсуждается индивидуально
+							<br> +7 999 211 26 86 <br>
+							+7 981 270 30 30
+						</li>
+                        </ul>
+					</div>
+					<div class="rate-contact-form">
+						<form id="formID"  action = 'contact.php' class="contact-form" method="post" >
+							<label for="name">Ваше имя</label>
+							<input placeholder="почта" type="text" name="name" id="name">
+							<label for="email">Ваша почта</label>
+							<input placeholder="email" type="email" name="email" id="email">
+							<label   for="course-select">Выберите направление</label>
+							<select name="course-select" id="course-select">
+								<option>Выберите направление</option>
+								<option>Фортепиано</option>
+								<option>Гитара</option>
+								<option>Вокал</option>
+								<option>Барабаны</option>
+							</select>
+							<label for="message">Ваше сообщение</label>
+							<input     placeholder="комментарий" name="message" type="text" id="message">
+							<label for="policy-checkbox">с  <a href="./policy.html ">политикой конфиденцильности</a> ознакомлен и согласен. </label>
+							<p> <input type="checkbox" name="policy" required  id="policy-checkbox"> </p>
+							<input type="submit" value="отправить">
+						</form>
+					</div>
+				</div>
+				<div class="footer">
+					<a href="http://yarochkin.ru/author.html"> &copy; YAROCHKIN</a>
+				</div>
+			</section>
+		</footer>
+		<script src="./js/scripts/menu.js"></script>
+	
+	</body>
+</html>
